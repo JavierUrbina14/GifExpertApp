@@ -61,3 +61,21 @@ h3 {
 .card img {
     width: 100%;
 }
+
+@media screen and (max-width: 800px){
+    body{
+        padding: 0rem
+    }
+}
+
+@media screen and (max-width: 800px){
+    input{
+        width: 90%;
+    }
+    form{
+        margin: 1rem;
+    }
+    #root{
+        margin: 1rem;
+    }
+}

@@ -7,7 +7,6 @@ export const GifExpertApp = () => {
     const [categories, setCategories] = useState([ 'Shingeki No Kyojin' ])
     const onAddCategory = (onNewCategory) => {
         if(categories.includes(onNewCategory)) return;
-        // setCategories([ ...categories, onNewCategory ])
         setCategories([ onNewCategory, ...categories ])
     }
     return (
